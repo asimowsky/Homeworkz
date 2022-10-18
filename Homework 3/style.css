@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300;1,400&display=swap');
+
+*{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+body{
+    background: linear-gradient(45deg, rgba(28,110,207,1) 100%, rgba(255,255,255,1) 100%);
+}
+section{
+   
+}
+.logoVimeo{
+    width: 150px;
+    margin-left: 220px;
+   
+}
+
+header{
+display: flex;
+justify-content:space-around;
+align-items:center;
+padding: 30px 10px;
+}
+
+.main-nav-items{
+    list-style: none;
+    margin-right: 100px; 
+}
+
+.main-nav-items li{
+    display: inline-block;
+    padding: 0px 10px;
+    margin-right: 10px;
+}
+
+.main-nav-items li a{
+    color: white;
+    text-decoration: none;
+}
+
+.getBtn{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px;
+    transition: 0.4s ease-in;
+}
+.getBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.infoTitle{
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 34px;
+   
+}
+
+.infoDescription{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+.btnDescription{
+   text-align: center;
+    margin-top: 5%;
+}
+
+.getBtnSec{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 13px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 1px solid white;
+    transition: 0.4s ease-out;
+   
+   
+}
+.getBtnSec:hover{
+    background-color: transparent;
+    color:white;
+}
+
+.infoRight{
+   margin-left: 90%;
+   margin-top: 10%;
+   
+}
+.brandSection{
+    background-color: rgb(228, 222, 222);
+    width: 100%;
+    margin-top: 1%;
+    text-align: center;
+  
+}
+
+.brandBox{
+    letter-spacing: 60px;
+}
+
+.brandLogo{
+    width: 120px;
+    height: 80px;
+}
+
+.brandBox img{
+    filter: grayscale(100%);
+}
+
+.trustedBrands{
+    
+    background-color: white;
+}
+
+.trustedTitle{
+    text-align: center;
+    font-size: 16px;
+}
+.icons{
+    display: flex;
+justify-content:center;
+align-items:center;
+padding: 30px;
+    
+}
+
+
+
+.icons ul li{
+    display: inline-block;
+    padding: 10px 90px;
+  
+}
+.icons ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.trustedIcons{
+   
+   width: 70px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.manageVideos{
+
+    background-color: rgb(228, 222, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoContent,.textContent{
+    padding: 150px;
+}
+.vimeoImg{
+    width: 650px;
+}
+
+.combinedText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textInside{
+    line-height: 2;
+   
+}
+
+#videoSection2{
+    background-color: rgb(255, 255, 255);
+  
+}
+
+#videoSection3{
+    background-color: rgb(255, 255, 255);
+  
+}
