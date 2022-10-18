@@ -1,6 +1,9 @@
 # Homeworkz
  Semos Homeworks
  
+HW 3: ![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/35933971/196324696-2e0d25b0-d8d4-4861-8dbb-5bba2783567b.png)
+
+ 
 HW 2: ![image](https://user-images.githubusercontent.com/35933971/195985069-7ed36736-c8a2-47f8-bbd8-eb46f79c03a4.png)
 
 
