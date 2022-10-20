@@ -1,0 +1,9 @@
+body{
+    background-image: url(../img/work2.gif);
+    background-repeat: repeat-y;
+}
+
+.hello__world{
+    text-align: center;
+    color: blue;
+}

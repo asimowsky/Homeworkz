@@ -1,0 +1,11 @@
+body{
+    background-image: url(../img/work2.gif);
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-attachment:fixed;
+}
+
+.hello__world{
+    text-align: center;
+    color: blue;
+}
