@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: black;
+}
+/* ____________________________________________________________________ */
+
+/* HEAD START */
+.head_container{
+    background-color: black;
+    height: 20vh;
+
+}
+
+.left_container{
+    width: 30%;
+    height: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  float: left;
+
+}
+
+.logo_box{
+    border: 1px solid #ffff;
+    height: 90%;
+    width: 87%;
+    background-color: gray;
+}
+
+.right_container{
+    width: 69%;
+    height: 100%;
+
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.mr{
+    margin-right: 5px;
+}
+
+.menu_box{
+    height: 50px;
+    width: 250px;
+    border: 1px solid #ffff;
+    background-color: gray;
+}
+
+/* HEADER END */
+
+/* ____________________________________________________________________ */
+
+/* MIDDLE START */
+
+.middle_container{
+
+    height: 70vh;
+    
+}
+.left_inside{
+    width: 20%;
+    height: 100%;
+  
+    display: inline-block;
+}
+.right_inside{
+    width: 79%;
+    height: 100%;
+    display: inline-block;
+  
+}
+.long_panel{
+    border: 1px solid #ffff;
+    width: 80%;
+    height: 70vh;
+    background-color: gray;
+}
+
+.upper{
+    height: 12vh;
+    background-color: gray;
+    border: 1px solid #ffff;
+    width: 99%;
+}
+.middle_first{
+    height: 38vh;
+    background-color: gray;
+    border: 1px solid #ffff;
+    width: 80%;
+    float: left;
+    margin-top: 5px;
+    
+}
+.middle_second{
+    margin-top: 5px;
+    height: 38vh;
+    background-color: gray;
+    border: 1px solid #ffff;
+    width: 18%;
+    margin-left: 10px;
+    float: left;
+
+}
+.bottom{
+    width: 100%;
+}
+
+.bottom_box{
+    margin-top: 5px;
+    width: 24.3%;
+    height: 18.5vh;
+    background-color: gray;
+    border: 1px solid #ffff;
+    float: left;
+    
+}
+
+.ml{
+    margin-left: 6px;
+}
+
+
+/* MIDDLE END */
+
+/* ____________________________________________________________________ */
+
+/* FOOTER START */
+
+.footer{
+    margin-top: 1vh;
+    background-color: gray;
+    height: 8vh;
+    width: 96.3%;
+    border: 1px solid white;
+    
+}
+
+/* FOOTER END */
+
+/* ____________________________________________________________________ */
