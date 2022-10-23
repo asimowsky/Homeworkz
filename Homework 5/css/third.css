@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    
+}
+
+.left_container{
+    width: 65%;
+    height: 100%;
+    background-color: bisque;
+    display: inline-block;
+    float: left;
+}
+
+.right_container{
+    width: 35%;
+    height: 100%;
+    background-color: beige;
+    float: left;
+    
+}
+
+.hg{
+   height: 30vh;
+}
+
+.hg50{
+    height: 60vh;
+}
+
+.hg90{
+    height: 93vh;
+}
+
+.red{
+    background-color: crimson;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 35%;
+    display: inline-block;
+}
+
+.lime{
+    background-color: lime;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 40%;
+    display: inline-block;
+}
+
+.green{
+    background-color: rgb(21, 165, 21);
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 15%;
+    display: inline-block;
+}
+
+.orange{
+    background-color: rgb(243, 161, 8);
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 35%;
+    display: inline-block;
+}
+
+.orange_light{
+    background-color: rgb(240, 189, 94);
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 57.5%;
+    display: inline-block;
+}
+
+.blue{
+    margin-top: 3.5%;
+    margin-left: 2%;
+    width: 30%;
+    background-color: rgb(26, 26, 243);
+    display: inline-block;
+}
+
+.blue_dark{
+    margin-top: 3.5%;
+    margin-left: 2%;
+    width: 50%;
+    background-color: rgb(8, 8, 104);
+    display: inline-block;
+}
+
+.blue_light{
+    margin-top: 3.5%;
+    margin-left: 2%;
+    width: 10%;
+    background-color: rgb(120, 120, 240);
+    display: inline-block;
+}
