@@ -2,6 +2,11 @@
  Semos Homeworks
  
 HW 5: <br>
+![image](https://user-images.githubusercontent.com/35933971/197609811-87f7217a-deff-4047-b27b-66358ccbe350.png)
+
+
+<br>
+
 ![image](https://user-images.githubusercontent.com/35933971/197416749-d5f086e8-d772-41ad-9273-679ba66dae7a.png)
 
 <br>
