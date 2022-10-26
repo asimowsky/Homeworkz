@@ -1,0 +1,144 @@
+/* MAIN PART */
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid #fff;
+    width: 80%;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* MAIN PART */
+
+/* HEADER */
+.header {
+    width: 80%;
+    height: 10%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 129, 68);
+}
+
+.header-title {
+    color: #fff;
+}
+
+/* HEADER */
+
+/* MAIN */
+.main {
+
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* MAIN */
+
+
+/* ASIDE */
+.aside {
+    border: 1px solid #fff;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 131, 131);
+    color: #fff;
+}
+
+/* ASIDE */
+
+
+/* ARTICLE */
+
+.article {
+    border: 1px solid #fff;
+    width: 70%;
+    margin-left: 1%;
+    height: 100%;
+    background-color: crimson;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* IMAGE */
+.imgbox {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+}
+
+.img {
+    margin: 5px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-1 {
+    background-color: gray;
+}
+
+.img-2 {
+    background-color: rgb(70, 63, 63);
+}
+
+.img-3 {
+    background-color: rgb(46, 30, 30);
+}
+/* IMAGE */
+
+/* ARTICLE */
+
+/* FOOTER */
+.footer {
+    width: 80%;
+    border: 1px solid #fff;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 129, 68);
+}
+
+.footer-title {
+    color: #fff;
+}
+
+/* FOOTER */
