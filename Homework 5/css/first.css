@@ -48,28 +48,176 @@ body {
 
 /* PANEL INSIDE START */
 .logo_box {
-    background-color: rgb(224, 224, 0);
+    background-color: rgb(0, 0, 0);
     height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.logo img{
+    width:  75px;
+    height: 75px;
+   
 }
 
 .sidebar_panel {
-    background-color: lime;
+    border: 1px solid #fff;
+    background-color: rgb(0, 0, 0);
     height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.list_item{
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 40px;
+    list-style: none;
+
+}
+
+.list_item a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    border-radius: 20px;
+    padding: 10px;
+   
+    transition: 0.8s;
+}
+
+.list_item a:hover{
+    background-color: white;
+    color: #000;
+
 }
 
 
 /* ___________________________________________________________________ */
 
 .header {
-    background-color: purple;
+    background-color: #000;
     color: #ffff;
     height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    
+}
+
+
+
+#search{
+    background-color: rgb(32, 35, 39);
+    width: 500px;
+    padding: 9px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 1px;
+    
 }
 
 .promo {
-    background-color: rgb(29, 29, 175);
+    background-color: rgb(0, 0, 0);
     color: #ffff;
     height: 25%;
+    border: 1px solid white;
+}
+.promo_upper{
+    width: 100%;
+    height: 5%;
+}
+
+.promo_left{
+    width: 50%;
+    margin: 8px 0px 0px 18px;
+
+    float: left;
+}
+.promo_right{
+    width: 40%;
+    display: flex;
+    margin: 8px 10px 0px 0px;
+    float: right;
+    justify-content: end;
+}
+.fa-star{
+    transition: 0.8s;
+}
+.fa-star:hover{
+   
+    color: rgb(3, 205, 255)
+}
+
+.promo_down{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: start;
+}
+.profile{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 10%
+ 
+}
+.profile img{
+ width: 50px;
+ height: 50px;
+ border: 1px solid rgb(3, 205, 255);
+ border-radius: 70px;
+ padding: 8px;
+
+}
+
+.tweet{
+    width: 85%;
+    height: 75%;
+    
+}
+
+.tweet textarea{
+    margin-top: 20px;
+    width: 70%;
+    height: 50%;
+    background-color: #000;
+    border-radius: 10px;
+    resize: none;
+    color: #fff;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 20px;
+  
+}
+.letstweet{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    transition: 0.8s;
+}
+
+#post{
+    
+    background-color: rgb(2, 165, 206);
+    height: fit-content;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 10px 7px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    float: right;
+    transition: 00.8s;
+}
+
+#post:hover{
+    background-color: rgb(6, 107, 133);
 }
 
 
@@ -79,6 +227,7 @@ body {
     width: 50%;
     height: 75%;
     float: left;
+    border-bottom: 1px solid white;
 }
 
 
@@ -92,7 +241,8 @@ body {
 .content_left {
     width: 70%;
     height: 90%;
-    background-color: aquamarine;
+    background-color: #000; 
+    color: #fff;
     float: left;
 }
 
@@ -100,34 +250,44 @@ body {
     float: left;
     width: 30%;
     height: 90%;
-    background-color: aliceblue;
+    background-color: #000;
 }
 /* ___________________________________________________________________ */
 .news {
     width: 100%;
-    background-color: crimson;
+    background-color: #000;
+    color: #fff;
     height: 50%;
+    border: 1px solid white;
 }
 
 .content {
     width: 100%;
     height: 100%;
-    background-color: rgb(238, 163, 23);
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
 }
 
 .article_one {
     height: 33%;
-    background-color: gray;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
 }
 
 .article_two {
     height: 33%;
-    background-color: rgb(201, 148, 148);
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
 }
 
 .article_three {
     height: 34%;
-    background-color: rgb(169, 181, 247);
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
 }
 
 /* PANEL INSIDE STOP */

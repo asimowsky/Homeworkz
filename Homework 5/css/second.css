@@ -8,7 +8,7 @@
     background-color: darkblue;
     text-align: center;
     color: #ffff;
-    margin: 0;
+    
 }
 
 .img-box {
@@ -24,15 +24,11 @@
 .content {
     width: 100%;
     height: 465px;
-
 }
 
 .inside {
     width: 100%;
-
     height: 465px;
-
-
 }
 
 .text-white{
@@ -64,7 +60,6 @@
     width: 47%;
     float: left;
     height: 210px;
-    
 }
 .image_place{
     float: left;
