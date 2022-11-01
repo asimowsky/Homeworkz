@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 70%;
+    height: 90%;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.upper {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.lower {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.box{
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.img-box{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.img-box img{
+    width: 100px;
+    height: 100px;
+}
+.right{
+    width: 40px;
+    height: 10px;
+    position:absolute;
+    right: 0px;
+    top:15px;
+}
+
+.info{
+    text-align: center;
+}
+.info p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.info a{
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.globus-color{
+    background-color: blue;
+}
+.telegram-color{
+    background-color: aqua;
+}
+.music-color{
+    background-color: yellow;
+}
+.desktop-color{
+    background-color: greenyellow;
+}
+.loud-color{
+    background-color: plum;
+}
+.settings-color{
+    background-color: crimson;
+}

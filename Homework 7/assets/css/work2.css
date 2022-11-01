@@ -1,0 +1,603 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+}
+
+/* UPPER */
+.upper {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* LEFT PANEL */
+.left {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+/* FIRST CARD */
+.toledo {
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+
+.toledo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.info-toledo {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.description {
+    width: 90%;
+    padding: 10px;
+}
+
+.description p {
+    padding: 5px;
+}
+
+.like-btn {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like-btn img {
+    width: 100%;
+}
+
+.rbox {
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    color: #fff;
+    padding: 0px 10px 0px 10px;
+}
+
+.spain-info {
+    background-color: blue;
+}
+
+/* FIRST CARD */
+
+
+
+/* SECOND CARD */
+.second {
+    background-image: url('https://www.visittuscany.com/shared/visittuscany/immagini/blogs/proposta/giardino-boboli-cerchiata.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    flex-direction: column;
+}
+
+.garden-info {
+    background-color: crimson;
+}
+
+.garden {
+    width: 100%;
+    height: 100%;
+
+}
+
+.play {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+}
+
+.play a img {
+    width: 80px;
+    height: 80px;
+}
+
+.garden-desc {
+    color: white;
+    height: 30%;
+    flex-direction: row;
+    position: relative;
+}
+
+.boboli {
+    padding: 15px;
+}
+
+.dots {
+    width: 20%;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+
+.dots img {
+    width: 100%;
+}
+
+/* SECOND CARD */
+
+
+/* THIRD CARD */
+.third {
+    background-image: url('https://i0.wp.com/mycornerofitaly.com/wp-content/uploads/2017/01/DSC05067.jpg?fit=1200%2C800&ssl=1');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    color: white;
+}
+
+.info-island {
+    padding: 15px;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.star img {
+    width: 20px;
+}
+
+/* THIRD CARD */
+
+/* LEFT PANEL */
+
+
+
+/* RIGHT PANEL */
+.right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+.fourth {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+
+}
+
+.upload-desc h2 {
+    text-align: center;
+}
+
+.upload img {
+    width: 100px;
+}
+
+.fifth {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 150px;
+    height: 300px;
+    background-image: url("https://lh6.ggpht.com/-uvA4e4BuImw/UwxtR45SRbI/AAAAAAAAwSc/Po1FKYk52wg/burano-6%25255B6%25255D.jpg?imgmax=800");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.small-title {
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.small-btn {
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+.small-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.mbox {
+    position: absolute;
+    right: 45px;
+    top: 50px;
+    color: #fff;
+    padding: 0px 10px 0px 10px;
+}
+
+.sixth {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 150px;
+    height: 300px;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5c4ce0f25ffd2087e377cf16/1590742791106-RUMKPAEV6RRDUI8Q1IL3/Burano-island-photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.loc-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.button-place {
+    position: absolute;
+    bottom: 15px;
+}
+
+.knowmore {
+    text-decoration: none;
+    padding: 7px 15px 7px 15px;
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+}
+
+/* RIGHT PANEL */
+
+/* UPPER */
+/* _________________________________________________________ */
+
+/* LOWER */
+.lower {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.lower-left {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.venice {
+    border: 1px solid black;
+    width: 300px;
+    height: 450px;
+    border-radius: 8px;
+    position: relative;
+    background-color: white;
+}
+
+.background-venice {
+    width: 100%;
+    height: 50%;
+    background-image: url('https://media.cntraveler.com/photos/5d404fa48f6fe70009832b69/master/pass/Venice_GettyImages-581284769.jpg');
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.info-venice {
+    padding: 10px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.info-venice p {
+    padding-top: 10px;
+}
+
+.btn-venice {
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+
+.btn-venice a {
+    background-color: blue;
+    color: wheat;
+    text-decoration: none;
+    padding: 10px;
+
+
+}
+
+.all-cards {
+    border: 1px solid black;
+    width: 650px;
+    height: 450px;
+    border-radius: 8px;
+    position: relative;
+    background-color: white;
+}
+
+.upper-side {
+    width: 100%;
+    height: 40%;
+    background-color: antiquewhite;
+    border-bottom: 1px solid gray;
+    border-radius: 7px;
+}
+
+.lower-side {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+}
+
+.content {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.lower-title {
+
+    font-size: 50px;
+}
+
+.long-hr {
+    width: 400px;
+    height: 20px;
+    background-color: gray;
+}
+
+.short-hr {
+    margin-top: 10px;
+    width: 250px;
+    height: 20px;
+    background-color: gray;
+}
+
+.all-btn {
+    position: absolute;
+    right: 15px;
+    bottom: 40px;
+}
+
+.all-btn a {
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px 30px 10px 30px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.lower-right {
+
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.lower-upper {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lower-lower {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-lower-card {
+    width: 130px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pics {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    color: white;
+}
+
+.picture-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-box img {
+    width: 50px;
+    height: 50px;
+}
+
+.maps {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #5084c8 46%, #FFCC70 100%);
+    color: white;
+
+}
+
+.mid-lower-card {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.euro{
+    background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    color: #fff;
+}
+.euro h2{
+    font-size: 30px;
+}
+.euro-line{
+    width: 50px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.colosseum {
+    width: 300px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-image: url('https://i.pinimg.com/originals/a5/15/eb/a515ebc1f17c1d098a605de160c8404f.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+
+}
+
+
+.lbox{
+    position: absolute;
+    left: 8px;
+    top: 10px;
+    color: #fff;
+    padding: 0px 10px 0px 10px;
+}
+.dots-right{
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    color: #fff;
+    padding: 0px 10px 0px 10px;
+   
+}
+.dots-right img{
+    width: 20px;
+    height: 20px;
+}
+
+.col-content{
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+    color: #fff;
+}
+
+.vatican {
+    width: 300px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/approaching-vatican-citys-st-peters-square-and-basilica-black-and-white-shawn-obrien.jpg");
+    background-size: cover;
+    position: relative;
+}
+.vatican-left-box{
+    position: absolute;
+    left: 8px;
+    top: 10px;
+    color: #fff;
+    padding: 0px 10px 0px 10px;
+    background-color: #21D4FD;
+}
+
+.view-trip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    color: #fff;
+}
+.view-trip img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+/* LOWER */
