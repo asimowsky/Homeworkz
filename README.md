@@ -1,7 +1,13 @@
 # Homeworkz
  Semos Homeworks
  
-HW 6: <br>![image](https://user-images.githubusercontent.com/35933971/199360841-8a10d676-9907-499b-ad4a-76a878ce914f.png)
+HW 7: <br>![image](https://user-images.githubusercontent.com/35933971/200062357-9177d2c8-ffea-49f8-baac-07f4d161bbcb.png)
+
+
+HW 6:
+<br>
+
+![image](https://user-images.githubusercontent.com/35933971/199360841-8a10d676-9907-499b-ad4a-76a878ce914f.png)
 
 
 <br>
