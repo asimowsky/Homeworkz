@@ -492,14 +492,38 @@ body {
     display: grid;
 }
 
-.button_watchlist {
+.watchlistBar {
     display: flex;
-    justify-content: space-between;
-    background-color: #363636;
-    padding: 10px;
-    text-decoration: none;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 4px;
+  
+    background-color: rgba(51, 50, 50, 0.726);
+}
+
+.fa-plus {
+    padding: 0.8rem;
     color: #fff;
-    border-radius: 7px;
+}
+
+.watchlistBar p {
+    align-self: center;
+    padding: 10px 30px;
+    flex: 1;
+    color: white;
+    font-size: 20px;
+}
+.downBar{
+    background-color: rgba(51, 50, 50, 0.726);
+    display: flex;
+    align-items: center;
+    border-left: 3px solid rgba(0, 0, 0, 0.541);
+}
+
+.checkBtn {
+    border: 0;
+    padding: 0px 15px;
+    color: white;
 }
 
 .reviewWatchList {
