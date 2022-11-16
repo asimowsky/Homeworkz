@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //THE LIFETIME SUPPLY CALC
+
+var current_age = 23;
+var max_age = 100;
+var sum = max_age - current_age;
+
+console.log("You wil need "+(sum*365)+ " to last you until the ripe old age of " +max_age );
+
+//THE GEOMETRIZER
+var radius = parseFloat(prompt("Enter a number"));
+const pi = 3.14;
+var sum = radius*2*pi;
+console.log("circumference = "+sum + "cm");
+var area = pi*radius*radius;
+console.log("area = " +area);
+
+// The Temperature Converter
+
+var celsius = parseInt(prompt("Enter celsius "));
+var convertToFahrenheit  = ((celsius/5)*9)+32;
+console.log("Celsius to Fahrenheit = " +convertToFahrenheit);
+var fahrenheit  = parseInt(prompt("Enter fahrenheit "));
+var convertToCelsius = ((fahrenheit-32)*5/9);
+console.log("Fahrenheit to celsius = " +convertToCelsius);
+    </script>
+</body>
+</html>
