@@ -3,7 +3,6 @@ var JohnFollowers = ["Bill", "Kate", "Jill", "Tom", "Mary", "Mark"];
 var JaneFollowers = ["Will", "Kate", "Jill", "Kyle", "Toby", "Nicolle"];
 
 var mergeFollowers = JohnFollowers.concat(JaneFollowers);
-
 for (var i = 0; i < mergeFollowers.length; i++) {
     if (mergeFollowers[i] == "Kate") {
         mergeFollowers.splice([i], 1);
@@ -16,9 +15,9 @@ console.log(mergeFollowers);
 
 //super mario tower
 var superMario = [];
-
 for (var i = 0; i < 6; i++) {
-     superMario.push("#");
-     console.log(superMario);
-   
+  superMario.push("#");
+     console.log(superMario.join(''));
 }
+
+//problem was solved only with console.log(superMario) but decided to research how to take out to hell that brackets and commas so pozdrav.
