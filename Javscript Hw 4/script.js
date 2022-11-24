@@ -16,8 +16,20 @@ console.log(mergeFollowers);
 //super mario tower
 var superMario = [];
 for (var i = 0; i < 6; i++) {
-  superMario.push("#");
-     console.log(superMario.join(''));
+    superMario.push("#");
+    console.log(superMario.join(''));
 }
 
 //problem was solved only with console.log(superMario) but decided to research how to take out to hell that brackets and commas so pozdrav.
+
+//multiplication table with nested loop
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var result = 0;
+for (var i = 0; i < numbers.length; i++) {
+    for (var j = 0; j < numbers.length; j++) {
+        result = numbers[i] * numbers[j];
+        console.log(`${numbers[i]} * ${numbers[j]} = ${result}`);
+    }
+}
+
+
