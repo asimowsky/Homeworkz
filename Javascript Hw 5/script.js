@@ -74,12 +74,12 @@ console.log(CountCharacters("JSAUWMFHFKVMSHUWDMMMSGDUYWDNDMDHSUWM", "W"));
 //Exercise 5
 
 let LargestNumber = (array1=[5,40,2,80,25]) =>{
-    let largest = array1[0];  
+    let reminder = array1[0];  
     for( let i = 0; i<array1.length;i++){
-        if(largest < array1[i]){
-            largest = array1[i];
+        if(reminder < array1[i]){
+            reminder = array1[i];
         }
     }
-    console.log(largest);
+    console.log(reminder);
 }
 console.log(LargestNumber())
