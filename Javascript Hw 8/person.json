@@ -1,0 +1,11 @@
+{
+    "name": "Mario Petkovski",
+    "location": "Aerdrom, Skopje, Macedonia",
+    "age": 29,
+    "hobbies": ["javascript", "film", "photography"],
+    "address": {
+        "street": "Bul. Pero Perovski 1000",
+        "appartment": 14
+    },
+    "has_drivers_license": true
+}
