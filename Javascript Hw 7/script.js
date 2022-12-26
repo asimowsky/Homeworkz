@@ -34,40 +34,56 @@ for (let i = 0; i < worldCup.length; i++) {
 document.body.appendChild(ul_list);
 
 //5th Exercise
+let box = document.querySelector(".box");
+let large = document.getElementById("increase");
+let small = document.getElementById("decrease");
 
-var btnIncrease = document.getElementById('increase');
-var btnDecrease = document.getElementById('decrease');
+increase.addEventListener("click",()=>{
+  localStorage.setItem("changeBox","large");
+  let type = localStorage.getItem("changeBox");
+  HandleChangeBox(type);
+})
 
-const box = document.getElementById("box");
+decrease.addEventListener("click",()=>{
+  localStorage.setItem("changeBox","small");
+  let type = localStorage.getItem("changeBox");
+  HandleChangeBox(type);
+})
 
-btnIncrease.addEventListener("click", function () {
-    localStorage.setItem("box", "large");
-    const wihe = localStorage.getItem("box");
-    box.classList.add("large-box");
-    box.classList.remove("small-box");
-
-    check(box_load);
-});
-btnDecrease.addEventListener("click", function () {
-    localStorage.setItem("box", "small");
-    const wihe = localStorage.getItem("box");
-     box.classList.add("small-box")
-    box.classList.remove("large-box");
-   
-    check(box_load);
-});
-var box_load = localStorage.getItem("box");
-function check() {
-    if (localStorage.getItem === "large") {
-
-        console.log("now its large")
-
-    }
-    else {
-        console.log("now its small")
-
+const HandleChangeBox = (type) => {
+    if(type==="large"){
+        box.classList.add("boxed-increased");
+    }else{
+        box.classList.remove("boxed-increased");
     }
 }
+let type = localStorage.getItem("changeBox");
+HandleChangeBox(type);
+// let box = document.querySelector(".box");
+// let increase = document.getElementById("increase");
+// let decrease = document.getElementById("decrease");
 
+// increase.addEventListener("click", function() {
+//     localStorage.setItem("changeBox", "increase");
+//     let type = localStorage.getItem("changeBox");
+//     HandleBoxChange(type);
+// });
 
-check(box);
+// decrease.addEventListener("click", function() {
+//     localStorage.setItem("changeBox", "decrease");
+//     let type = localStorage.getItem("changeBox");
+//     HandleBoxChange(type);
+// });
+
+// const HandleBoxChange = (type) => {
+//     if(type === "increase") {
+//         box.classList.add("boxed-increased");
+//     } else {
+//         box.classList.remove("boxed-increased");
+//     }
+// }
+
+// let type = localStorage.getItem("changeBox");
+// HandleBoxChange(type);
+let calc = 3 + 21;
+console.log(calc)

@@ -12,11 +12,11 @@ fetch("https://jsonplaceholder.typicode.com/todos/")
         const bodyUl = document.getElementById("test")
         for(let i=1; i<=100;i++){
         const list_item = document.createElement('li');
-        const titles = (fakeapi[i].title)
+        const titles = (fakeapi[i].title);
         list_item.innerHTML = titles;
         ul_list.appendChild(list_item);
-    
      }
+     
      
      bodyUl.append(ul_list);
     }).catch(err => {
